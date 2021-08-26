@@ -12,21 +12,9 @@
       @include flexbox(end);
     }
 
-    .gnb-search-button {
+    .gnb-icon-button.is-serach {
       margin-right: 4px;
     }
-  }
-
-  &-icon-button {
-    @include flexbox;
-    width: 32px;
-    height: 32px;
-    font-size: 24px;
-    color: $gray-8;
-  }
-
-  &-menu-button {
-    color: $blue;
   }
 
   .logo {
@@ -86,8 +74,8 @@
   @include responsive(D) {
     &-right {
       .input-group {
-      width: 264px;
-      margin-right: 24px;
+        width: 264px;
+        margin-right: 24px;
       }
     }
   }

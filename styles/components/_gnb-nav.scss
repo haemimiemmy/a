@@ -1,0 +1,19 @@
+.gnb-nav {
+
+  &-list {
+    @include flexbox(start);
+  }
+
+  &-item {
+    margin-right: 14px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      @include text-style(18, $gray-3);
+      font-weight: 700;
+    }
+  }
+}
